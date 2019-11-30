@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TechAltum Project" verbose="1" >
+<!-- <parameter name="browserName"  value="chrome"/> -->
+    
+  <test name="Initiate Search COA" >
+      
+    <classes>
+       <class name="org.techAltum.com.NaukriSearch" />
+    </classes>
+  </test>
+  
+</suite>
